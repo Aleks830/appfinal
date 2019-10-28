@@ -69,7 +69,7 @@ if(isset($_POST['comment']) && $_POST['comment'] !='') {
 							<label for="comment">Comments</label>
 							<textarea name="comment" class="form-control" rows="3" cols="28" rows="5" placeholder="Comments"></textarea> 
 						</div>
-						<button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">Submit</button>
+						<button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">ВОЖМИ МЕНЯ ПОЛНОСТЬЮ</button>
 					</form>
 
 					
