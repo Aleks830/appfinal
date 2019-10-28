@@ -1,5 +1,5 @@
 <?php
-$host = "mydb";
+$host = "mydb-mysqlha";
 $user = "dbuser";
 $pass = "dbpass";
 $db = "msgdb";
