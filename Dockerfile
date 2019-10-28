@@ -5,7 +5,7 @@
  RUN apt --no-install-recommends install nginx php php-fpm php-mysql supervisor -y 
  RUN apt-get update && apt-get upgrade -y
  COPY index.php /home/manager/app/
- RUN chown www-data:www-data -R /home &&  chmod 600 -R /home
+ RUN chown www-data:www-data -R /home &&  chmod 777 -R /home
  COPY default /etc/nginx/sites-enabled/
  COPY supervisord.conf /etc/supervisord.conf
  CMD supervisord -n -c /etc/supervisord.conf
